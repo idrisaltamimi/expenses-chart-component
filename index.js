@@ -1,4 +1,8 @@
-import jsonData from "./data.json" assert {type: "json"}
+const jsonFile = async () => {
+   const res = await fetch("./data.json")
+   return res.json()
+}
+const jsonData = await jsonFile()
 
 const myChart = document.getElementById("chart")
 const days = jsonData.map(i => i.day)
