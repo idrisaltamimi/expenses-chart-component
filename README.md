@@ -59,10 +59,10 @@ Users should be able to:
 
   
 
-![](screenshot/desktop-design.png)
-![](screenshot/mobile-design.png)
-![](screenshot/active-states-1.png)
-![](screenshot/active-states-2.png)
+![Desktop Design](screenshot/desktop-design.png)
+![Mobile Design](screenshot/mobile-design.png)
+![Active States 1](screenshot/active-states-1.png)
+![Active States 2](screenshot/active-states-2.png)
 
   
 
