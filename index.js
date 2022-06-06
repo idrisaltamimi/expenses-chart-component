@@ -9,8 +9,6 @@ let day = d.getDay() - 1
 
 day = day === -1 ? 6 : day
 
-console.log(chart)
-
 const backgroundColor = days.map((i, index) => index === day ?
    "hsl(186, 34%, 60%)" : "hsl(10, 79%, 65%)")
 const hoverBackgroundColor = days.map((i, index) => index === day ?
