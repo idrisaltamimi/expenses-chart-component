@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="index.css">
+  <script src="chart.min.js"></script>
+  <script type="module" src="index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <small>My balance</small>
+      <h3>$921.48</h3>
+    </div>
+    <img src="images/logo.svg" alt="logo">
+  </header>
+
+  <main>
+    <section>
+      <h3>Spending - Last 7 days</h3>
+      <div class="chart-container">
+        <canvas id="chart"></canvas>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="total-expenses-container">
+      <div>
+        <small>Total this month</small>
+        <h1>$478.33</h1>
+      </div>
+      <div>
+        <span id="percentage-increase">+2.4%</span>
+        <small>from last month</small>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/idrisaltamimi">Idris Al Tamimi</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
