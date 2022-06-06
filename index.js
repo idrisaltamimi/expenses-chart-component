@@ -1,4 +1,5 @@
 import jsonData from "./data.json" assert {type: "json"}
+import * as chart from "./chart.min.js"
 
 const myChart = document.getElementById("chart")
 const days = jsonData.map(i => i.day)
@@ -7,6 +8,8 @@ const d = new Date()
 let day = d.getDay() - 1
 
 day = day === -1 ? 6 : day
+
+console.log(chart)
 
 const backgroundColor = days.map((i, index) => index === day ?
    "hsl(186, 34%, 60%)" : "hsl(10, 79%, 65%)")
