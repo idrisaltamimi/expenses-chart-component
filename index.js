@@ -1,12 +1,10 @@
 import jsonData from "./data.json" assert {type: "json"}
 
-
-const chart = document.getElementById("chart")
+const myChart = document.getElementById("chart")
 const days = jsonData.map(i => i.day)
 const data = jsonData.map(i => i.amount)
 const d = new Date()
 let day = d.getDay() - 1
-
 
 day = day === -1 ? 6 : day
 
@@ -52,7 +50,7 @@ const plugins = {
    }
 }
 
-new Chart(chart, {
+new Chart(myChart, {
    type: "bar",
    data: {
       labels: days,
