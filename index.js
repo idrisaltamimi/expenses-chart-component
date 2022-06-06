@@ -1,5 +1,4 @@
 import jsonData from "./data.json" assert {type: "json"}
-import * as chart from "./chart.min.js"
 
 const myChart = document.getElementById("chart")
 const days = jsonData.map(i => i.day)
